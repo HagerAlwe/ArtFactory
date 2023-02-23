@@ -1,0 +1,614 @@
+body {
+    font-family:Arial, Helvetica, sans-serif ;
+}
+
+/* start haeder */
+
+.haeder {
+    background-image: url("../image/7.png");
+    height: 700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.contanier {
+    width: 80%;
+    overflow: hidden;
+    margin: auto;
+}
+.haeder .nav {
+    overflow: hidden;
+    color: white;
+
+}
+.haeder .nav .contanier .long-long{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.haeder .nav .contanier .left a {
+    text-decoration: none;
+    color: #eee;
+    font-size: 15px;
+}
+.haeder .nav .contanier .left a  ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.haeder .nav .contanier .left a  ul li{
+    padding: 10px;
+    text-transform: uppercase;
+}
+.haeder .nav .contanier .left a  ul li:hover{
+    color:rgb(211, 27, 27) ;
+}
+.haeder .nav .contanier .left a  ul .non {
+    color: rgb(211, 27, 27);
+}
+
+.haeder .main .contanier .left {
+    margin-top: 10px;
+    color: #fff;
+}
+.haeder .main .contanier .long-long-1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.haeder .main .contanier .long-long-1 .left h2 {
+    font-size: 60px;
+}
+
+.haeder .main .contanier .long-long-1 .left p {
+    width: 70%;
+    line-height: 30px;
+}
+.haeder .main .contanier .left button {
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: #fff;
+    margin-top: 30px;
+} 
+.haeder .main .contanier .left button:hover {
+    background-color: rgb(223, 99, 99);
+}
+
+/* end haeder */
+
+/*start seciion-1  */
+.seciion-1 {
+    margin-top: 25px;
+}
+.seciion-1 .contanier .long-long-2 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.seciion-1 .contanier .long-long-2 .lain-1 img {
+width: 100%;
+}
+
+.seciion-1 .contanier .long-long-2 .lain-2  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    line-height: 30px;
+    }
+
+    .seciion-1 .contanier .long-long-2 .lain-2 a {
+        padding: 10px;
+        border-radius: 20px;
+        text-align: center;
+        outline: none;
+        border: none;
+        background-color:#00b4c6;
+        color: #fff;
+        margin-top: 30px;
+        width: 30%;
+        text-decoration: none;
+    } 
+    .seciion-1 .contanier .long-long-2 .lain-2 a:hover {
+        background-color: #007bff;
+    }
+
+.seciion-2 {
+    padding: 50px 0 0 0;
+    margin-top: 25px;
+}
+
+
+
+
+.seciion-2 .contanier .not {
+    display: flex;
+    
+}
+
+
+.seciion-1 {
+    margin-top: 30px;
+}
+
+.seciion-1 .contanier .long-2 {
+display: flex;
+justify-content: space-between;
+}
+
+.last {
+    overflow: hidden;
+}
+.last .mine {
+    float: left;
+
+}
+
+.last .mine img {
+    padding-right: 15px;
+}
+
+
+.seciion-3 {
+    background-color:rgb(0, 179, 255) ;
+    overflow: hidden;
+
+    
+}
+.card {
+    width: 30%;
+    background-color: white;
+    height: 300px;
+    float: left;
+    margin: 15px;
+    text-align: center;
+
+
+}
+
+.card img {
+    display: block;
+    width: 20%;
+    height: 50px;
+    margin: 10px auto 10px;
+}
+.card p {
+    line-height: 40px;
+}
+.card button {
+    padding: 15px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: rgb(0, 179, 255);
+    color: #fff;
+    margin-top: 30px;
+    margin: 35px auto ;
+}
+.card button:hover {
+    background-color: #00b4c6;
+
+}
+
+.seciion-4 {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+
+    margin-top: 20px;
+}
+.seciion-4 h2 {
+    font-size: 50px;
+    color: #000000c1;
+}
+
+.seciion-4 p {
+    text-align: center;
+    line-height: 30px;
+    color: #00000096;
+
+}
+
+.seciion-5 .long-long-4 {
+    display: flex;
+    justify-content: space-between;
+}
+.seciion-5 .long-long-4 .left {
+    margin-right:5%;
+}
+.seciion-5 .long-long-4 .left p {
+    width: 100%;}
+.left button {
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(24, 160, 223);
+    color: #fff;
+    margin-top: 10px;
+
+}
+.left button:hover {
+    background-color: #00b4c6;
+}
+
+.seciion-6 {
+    margin-top: 25px;
+}
+.seciion-6  .long-long-5{
+    display: flex;
+    justify-content: space-between;
+}
+.seciion-6 .long-long-5 .right  {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: column;
+    background-color: #00b4c6;
+    width: 50%;
+    height: 500px;
+}
+.seciion-6 .long-long-5 .right form {
+    display: flex;
+    align-items: center;
+}
+.seciion-6  .right form input {
+    background-color: rgba(240, 248, 255, 0.226);
+    height: 50px;
+    border-style: none;
+    text-align: center;
+    margin: 15px;
+}
+.seciion-6 .right textarea {
+    width: 70%;
+    height: 40%;
+    background-color:rgba(240, 248, 255, 0.226);
+} 
+
+.seciion-6 .right a {
+    padding: 10px;
+    width: 20%;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    background-color: red;
+    color: #fff;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.seciion-6 .right a:hover {
+    background-color: #007bff;
+}
+
+.seciion-7 {
+    margin-top: 10px;
+}
+
+.seciion-7 .contanier .mor {
+    display: flex;
+    justify-content: space-between;
+}
+
+.seciion-7 .contanier .mor .hoh-1 a {
+ text-decoration: none;
+}
+
+.seciion-7 .contanier .mor .hoh-2 a {
+    text-decoration: none;
+    padding: 10px;
+    background-color: #00b4c6;
+    border-radius: 10%;
+    color: #fff;
+}
+
+.seciion-7 .contanier .mor .hoh-2 a:hover {
+    background-color: #007bff;
+}
+
+
+@media (min-width:250px) and (max-width:1200px) {
+    .haeder {
+        width: 99%;
+    }
+    
+    .haeder .nav .contanier .left h1 {
+        font-size: 35px;
+        text-align: center;
+        width: 100%;
+    }
+.haeder .nav .contanier .left a ul {
+        display: none;
+    }
+    .haeder .nav .contanier .left-1 {
+        display: flex;
+        justify-content: center;
+    }
+    .haeder .main .contanier .long-long-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .haeder .main .contanier .long-long-1 .left h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+    .haeder .main .contanier .long-long-1 .left p {
+        width: 100%;
+        text-align: center;
+        line-height: 30px;
+    }
+    .haeder .main .contanier .long-long-1 .left-1 img {
+        padding-left: 20px;
+    }
+    .haeder .main .contanier .left {
+        margin-top: 10px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .seciion-1 .contanier .long-long-2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .seciion-1 .contanier .long-long-2 .lain-1 {
+        display: flex;
+        justify-content: center;
+    }
+    .seciion-1 .contanier .long-long-2 .lain-1 img {
+    width: 80%;
+    }
+
+
+    .seciion-1 .contanier .long-long-2 .lain-2 {
+        width: 80%;
+        text-align: center;
+    }
+
+    .seciion-1 .contanier .long-long-2 .lain-2 a{
+        width: 90%;
+    }
+
+
+    .seciion-2 .contanier .not {
+        display: flex;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+
+    .seciion-2 .contanier .not .right {
+        display: flex;
+        justify-content: center;
+    }
+    .seciion-2 .contanier .not .right img{
+        width: 81%;
+        height: 205px;
+
+    }
+
+    .seciion-2 .contanier .not .left div {
+        text-align: center;
+        width: 99%;
+        padding-top: 15px;
+    }
+
+    .seciion-3 {
+        width: 95%;
+    }
+    .contanier {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+
+    .seciion-4 {
+        text-align: center;
+        width: 90%;
+    }
+
+    .seciion-4 h2 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+
+    .seciion-5 .long-long-4 {
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+
+    .seciion-5 .long-long-4 .right {
+        width: 99%;
+        padding-top: 10px;
+    }
+
+
+    .seciion-6 .long-long-5 .left {
+        display: none;
+    }
+
+    .seciion-6 .long-long-5 .right {
+        width: 95%;
+    }
+
+    .seciion-6 .long-long-5 .right form {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .seciion-6 .right a  {
+        width: 40%;
+    }
+
+    .seciion-7 .contanier .mor {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        width: 85%;
+        align-items: center;
+    }
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
